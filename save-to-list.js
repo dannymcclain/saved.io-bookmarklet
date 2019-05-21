@@ -12,11 +12,3 @@ javascript: (function() {
     window.open(savedURL);
   }
 })();
-
-javascript: if (frames.length > 1) alert('Sorry,%20frames%20detected.');
-else {
-  void (document.body.style.color = prompt(
-    'Change%20to%20which%20text%20color?',
-    'yellow'
-  ));
-}
